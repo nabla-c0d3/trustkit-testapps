@@ -13,7 +13,89 @@
 		8CBADAC31F2C088800FCD7FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBADAC11F2C088800FCD7FB /* Main.storyboard */; };
 		8CBADAC51F2C088800FCD7FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CBADAC41F2C088800FCD7FB /* Assets.xcassets */; };
 		8CBADAC81F2C088800FCD7FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CBADAC61F2C088800FCD7FB /* LaunchScreen.storyboard */; };
+		8CBADAEA1F2C08DD00FCD7FB /* TrustKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBADADB1F2C08B900FCD7FB /* TrustKit.framework */; };
+		8CBADAEB1F2C08DD00FCD7FB /* TrustKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8CBADADB1F2C08B900FCD7FB /* TrustKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CBADADA1F2C08B900FCD7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8480471A896EE30017C155;
+			remoteInfo = TrustKit;
+		};
+		8CBADADC1F2C08B900FCD7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8716961B23A91D00267E1D;
+			remoteInfo = TrustKit_Static;
+		};
+		8CBADADE1F2C08B900FCD7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C8480521A896EE30017C155;
+			remoteInfo = TrustKitTests;
+		};
+		8CBADAE01F2C08B900FCD7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CA6CBFD1BAE2ADD00BDA419;
+			remoteInfo = "TrustKit OS X";
+		};
+		8CBADAE21F2C08B900FCD7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CA6CC061BAE2ADD00BDA419;
+			remoteInfo = "TrustKit OS XTests";
+		};
+		8CBADAE41F2C08B900FCD7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C84CBB21D6E0981009B3E7D;
+			remoteInfo = "TrustKit tvOS";
+		};
+		8CBADAE61F2C08B900FCD7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8C84CBDD1D6E1718009B3E7D;
+			remoteInfo = "TrustKit tvOS Tests";
+		};
+		8CBADAE81F2C08B900FCD7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8CC5D24E1D6E64D10074F515;
+			remoteInfo = "TrustKit watchOS";
+		};
+		8CBADAEC1F2C08DD00FCD7FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C8480461A896EE30017C155;
+			remoteInfo = TrustKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CBADAEE1F2C08DD00FCD7FB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8CBADAEB1F2C08DD00FCD7FB /* TrustKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8CBADAB51F2C088800FCD7FB /* TestSwizzling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwizzling.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +108,7 @@
 		8CBADAC41F2C088800FCD7FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CBADAC71F2C088800FCD7FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CBADAC91F2C088800FCD7FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TrustKit.xcodeproj; path = ../../TrustKit/TrustKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CBADAEA1F2C08DD00FCD7FB /* TrustKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +126,7 @@
 		8CBADAAC1F2C088800FCD7FB = {
 			isa = PBXGroup;
 			children = (
+				8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */,
 				8CBADAB71F2C088800FCD7FB /* TestSwizzling */,
 				8CBADAB61F2C088800FCD7FB /* Products */,
 			);
@@ -79,6 +164,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8CBADAD01F2C08B900FCD7FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CBADADB1F2C08B900FCD7FB /* TrustKit.framework */,
+				8CBADADD1F2C08B900FCD7FB /* libTrustKit_Static.a */,
+				8CBADADF1F2C08B900FCD7FB /* TrustKitTests.xctest */,
+				8CBADAE11F2C08B900FCD7FB /* TrustKit.framework */,
+				8CBADAE31F2C08B900FCD7FB /* TrustKit OS XTests.xctest */,
+				8CBADAE51F2C08B900FCD7FB /* TrustKit.framework */,
+				8CBADAE71F2C08B900FCD7FB /* TrustKit tvOS Tests.xctest */,
+				8CBADAE91F2C08B900FCD7FB /* TrustKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,10 +189,12 @@
 				8CBADAB11F2C088800FCD7FB /* Sources */,
 				8CBADAB21F2C088800FCD7FB /* Frameworks */,
 				8CBADAB31F2C088800FCD7FB /* Resources */,
+				8CBADAEE1F2C08DD00FCD7FB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8CBADAED1F2C08DD00FCD7FB /* PBXTargetDependency */,
 			);
 			name = TestSwizzling;
 			productName = TestSwizzling;
@@ -126,12 +228,77 @@
 			mainGroup = 8CBADAAC1F2C088800FCD7FB;
 			productRefGroup = 8CBADAB61F2C088800FCD7FB /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8CBADAD01F2C08B900FCD7FB /* Products */;
+					ProjectRef = 8CBADACF1F2C08B900FCD7FB /* TrustKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8CBADAB41F2C088800FCD7FB /* TestSwizzling */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8CBADADB1F2C08B900FCD7FB /* TrustKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TrustKit.framework;
+			remoteRef = 8CBADADA1F2C08B900FCD7FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8CBADADD1F2C08B900FCD7FB /* libTrustKit_Static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTrustKit_Static.a;
+			remoteRef = 8CBADADC1F2C08B900FCD7FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8CBADADF1F2C08B900FCD7FB /* TrustKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TrustKitTests.xctest;
+			remoteRef = 8CBADADE1F2C08B900FCD7FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8CBADAE11F2C08B900FCD7FB /* TrustKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TrustKit.framework;
+			remoteRef = 8CBADAE01F2C08B900FCD7FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8CBADAE31F2C08B900FCD7FB /* TrustKit OS XTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TrustKit OS XTests.xctest";
+			remoteRef = 8CBADAE21F2C08B900FCD7FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8CBADAE51F2C08B900FCD7FB /* TrustKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TrustKit.framework;
+			remoteRef = 8CBADAE41F2C08B900FCD7FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8CBADAE71F2C08B900FCD7FB /* TrustKit tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TrustKit tvOS Tests.xctest";
+			remoteRef = 8CBADAE61F2C08B900FCD7FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8CBADAE91F2C08B900FCD7FB /* TrustKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TrustKit.framework;
+			remoteRef = 8CBADAE81F2C08B900FCD7FB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8CBADAB31F2C088800FCD7FB /* Resources */ = {
@@ -158,6 +325,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8CBADAED1F2C08DD00FCD7FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TrustKit;
+			targetProxy = 8CBADAEC1F2C08DD00FCD7FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8CBADAC11F2C088800FCD7FB /* Main.storyboard */ = {
@@ -277,6 +452,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D94Z5227S5;
 				INFOPLIST_FILE = TestSwizzling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nabla-c0d3.TestSwizzling";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +465,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D94Z5227S5;
 				INFOPLIST_FILE = TestSwizzling/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nabla-c0d3.TestSwizzling";
 				PRODUCT_NAME = "$(TARGET_NAME)";
