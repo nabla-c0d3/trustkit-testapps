@@ -20,6 +20,48 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>TSKConfiguration</key>
+	<dict>
+		<key>TSKPinnedDomains</key>
+		<dict>
+			<key>www.datatheorem.com</key>
+			<dict>
+				<key>TSKEnforcePinning</key>
+				<true/>
+				<key>TSKPublicKeyAlgorithms</key>
+				<array>
+					<string>TSKAlgorithmEcDsaSecp384r1</string>
+				</array>
+				<key>TSKPublicKeyHashes</key>
+				<array>
+					<string>58qRu/uxh4gFezqAcERupSkRYBlBAvfcw7mEjGPLnNU=</string>
+					<string>BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB=</string>
+				</array>
+			</dict>
+			<key>yahoo.com</key>
+			<dict>
+				<key>TSKEnforcePinning</key>
+				<true/>
+				<key>TSKIncludeSubdomains</key>
+				<true/>
+				<key>TSKPublicKeyAlgorithms</key>
+				<array>
+					<string>TSKAlgorithmRsa2048</string>
+				</array>
+				<key>TSKPublicKeyHashes</key>
+				<array>
+					<string>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</string>
+					<string>BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB=</string>
+				</array>
+				<key>TSKReportUris</key>
+				<array>
+					<string>https://overmind.datatheorem.com/trustkit/report</string>
+				</array>
+			</dict>
+		</dict>
+		<key>TSKSwizzleNetworkDelegates</key>
+		<true/>
+	</dict>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

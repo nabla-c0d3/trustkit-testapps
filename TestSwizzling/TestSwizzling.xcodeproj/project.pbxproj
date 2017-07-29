@@ -491,6 +491,7 @@
 				8CBADACE1F2C088800FCD7FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
